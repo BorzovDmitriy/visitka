@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url("../fonts/static/OpenSans/OpenSans-Regular.ttf");
+}
+body{
+  margin: 0px;
+  font-family: 'OpenSans-Regular', sans-serif;
+}
+/* <<<<  header  >>> */
+header{
+  background-color: rgb(82, 79, 79);
+  height: 82px;
+}
+.conteiner{
+  margin: 0px auto;
+  width: 1000px;
+  height: 78px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+}
+nav{
+  display: block;
+  width: 600px;
+}
+ul{
+  display: flex;
+  margin: 0px;
+  list-style: none;
+  justify-content: space-around;
+  align-content: center;
+}
+.nav-link{
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: rgb(136, 255, 0);
+}
+.butt{
+  display: block;
+  width: 60px;
+  height: 30px;
+}
+/* <<<<  main  >>> */
+.conteiner-main{
+  margin: 0px auto;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.foto-logo{
+  /*border: 3px solid black;*/
+  width: 450px;
+  height: 450px;
+  /*background-color: burlywood;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-foto{
+  display: block;
+  border:3px solid rgb(77, 28, 28);
+  border-radius: 5px;
+  box-shadow: 5px 2px 2px grey;
+}
+.formay{
+  /*border: 3px solid black;*/ 
+  width: 450px;
+  height: 450px;
+  /*background-color: cyan;*/
+}
+.title{
+  border-left: 3px solid goldenrod;
+  padding-left: 5px;
+}
+.skill{
+  display: block;
+  list-style:circle;
+}
+
+/* <<<<  footer >>> */
+footer{
+  background-color: rgb(46, 44, 44);
+  height: 100px;
+  display: block;
+  position: sticky;
+  bottom: 0px;
+}
+.conteiner-footer{
+  margin: 0px auto;
+  width: 1000px;
+  height: 98px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.foot-adress{
+  width: 200px;
+  higth: 90px;
+  color: white;
+}
+.copy{
+  width: 200px;
+  higth: 90px;
+  color: white;
+}
+.social{
+  width: 200px;
+  higth: 90px;
+  color: white;
+  list-style: none;
+}
+.social a {
+  text-align: center;
+  text-decoration: none;
+  width: 48px;
+  height: 48px; 
+  background: rgb(243, 192, 192);
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+.social a:hover {background: #5d84ae; color: #fff;}
